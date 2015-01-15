@@ -54,11 +54,20 @@ var getName = function(){
   //Code Here
 
   var adder = function(){
+  	var sum = 0;
+  	  for (var i = 0; i < arguments.length; i++){
 
+  	  	sum = sum + arguments[i];
+  	  }
+  	  return sum;
+  	}
 
-  	return "The Total Number was " + 
+  	var result = adder(1,2,3,4,5)
 
-  }
+  	alert("The Total Number was " + result);
+  	  
+
+ 
 
 
 //Next Problem
@@ -85,7 +94,7 @@ var getName = function(){
 
 false 0 "" NUN null undefined 
 
-test it in an iff statement with no additional condition
+test it in an if statement with no additional condition 
 
 //Next Problem
 
