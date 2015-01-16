@@ -94,9 +94,9 @@ var getName = function(){
 
   //Answer Here
 
-false 0 "" NUN null undefined 
+false 0 "" NaN null undefined 
 
-test it in an if statement with no additional condition 
+test it in an if statement with no additional condition if true it will return true else it will return false
 
 //Next Problem
 
@@ -106,7 +106,7 @@ test it in an if statement with no additional condition
 
   //Code Here
 
-  var myName = function()){
+  var myName = function(){
 
 	return "Brian";
 }
